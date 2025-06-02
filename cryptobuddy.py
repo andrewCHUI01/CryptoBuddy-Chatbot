@@ -38,7 +38,7 @@ def get_crypto_data():
         return None
 
 def cryptobuddy():
-    print("Yo, what's good? I am CryptoBuddy, your crypto advisor! ")
+    print("Hello, what's good? I am CryptoBuddy, your crypto advisor! ")
     print("Ask me stuff like 'Which coin is trending?' or 'What's the greenest coin?'")
     print("Type 'help' for tips or 'exit' to bounce. ⚡ Crypto is risky—DO YOUR OWN RESEARCH! ⚡")
 
@@ -96,7 +96,7 @@ def cryptobuddy():
                 if crypto_db[coin]["price_trend"] == "rising" and crypto_db[coin]["sustainability_score"] > 7/10
             ]
             if long_term_coins:
-                print(f"📈 {long_term_coins[0]} is your long-term champ! Rising prices and eco-friendly vibes! 🚀 DYOR, fam!")
+                print(f"📈 {long_term_coins[0]} is your long-term champ! Rising prices and eco-friendly vibes! 🚀 DO YOUR OWN RESEARCH, fam!")
             else:
                 print("No coins match both rising trends and high sustainability. Try something else! 🤙")
 
